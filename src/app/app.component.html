@@ -1,8 +1,15 @@
 <h1>{{ title }}</h1>
-Edad 1 : <input type="number" [(ngModel)]="edadUno" />
-<br />
-Edad 2: <input type="number" [(ngModel)]="edadDos" />
-<br />
-<button (click)="Calcular()">Calcular</button>
-<button (click)="Clean()">Limpiar</button>
-<p>La suma es {{ suma }} y el promedio es {{ promedio }}</p>
+<p>
+  1- (app.component.html) Realizar: una aplicacion que se le ingresen dos edades
+  en dos cuadro de textos edadUno, EdadDos mostrar el promedio y la suma en dos
+  cuadros de textos nuevos botones "calcular" y "limpiar cuadros de textos"
+</p>
+<div>
+  Edad 1 : <input type="number" [(ngModel)]="edadUno" />
+  <br />
+  Edad 2: <input type="number" [(ngModel)]="edadDos" />
+  <br />
+  <button (click)="Calcular()">Calcular</button>
+  <button (click)="Clean()">Limpiar</button>
+  <p>La suma es {{ suma }} y el promedio es {{ promedio }}</p>
+</div>
