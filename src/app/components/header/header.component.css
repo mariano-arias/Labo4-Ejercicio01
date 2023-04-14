@@ -18,6 +18,9 @@ main {
     background-color: #ccd0d5;
 }
 
+button {
+    margin: 5px;
+}
 footer {
     height: 10vh;
     background-color: #ffffff;

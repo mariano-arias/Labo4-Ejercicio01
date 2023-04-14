@@ -12,7 +12,12 @@
           placeholder="Password"
           [(ngModel)]="usuario.password"
         />
-        <button class="btn-login" (click)="login()">Login</button>
+        <input
+          type="password"
+          placeholder="Repita la password"
+          [(ngModel)]="passwordAux"
+        />
+        <button class="btn-login" (click)="registro()">Registrarse</button>
       </div>
     </div>
   </div>

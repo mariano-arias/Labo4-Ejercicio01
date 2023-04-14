@@ -8,6 +8,9 @@ import { LoginComponent } from './components/login/login.component';
 import { ErrorComponent } from './components/error/error.component';
 import { Ejercicio1Component } from './components/ejercicio1/ejercicio1.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { RegistroComponent } from './components/registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { AppRoutingModule } from './app-routing.module';
     BienvenidaComponent,
     LoginComponent,
     ErrorComponent,
-    Ejercicio1Component
+    Ejercicio1Component,
+    HeaderComponent,
+    FooterComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,
